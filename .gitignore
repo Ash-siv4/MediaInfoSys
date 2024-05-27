@@ -1,2 +1,4 @@
 # Files to ignore:
 Documents/Junior Software Developer Challenge.docx
+
+.vscode/
