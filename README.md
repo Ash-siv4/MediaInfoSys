@@ -6,12 +6,14 @@ This is a Media Information System designed to display marathon race results in 
 
 - Display marathon race results in a table format.
 - Sort athletes by rank or bib number.
-- Export results to CSV format.
+- Export results to a CSV file in the format: Rank,Full Name,Finish Time,Country Code.
 - Designed with a user-friendly interface and styling.
 
 ## Prerequisites
 
 - Web browser (Google Chrome, Firefox, etc.)
+- VSCode
+- Python installed on your system (optional, for running the local server).
 
 ## Installation
 
@@ -20,7 +22,7 @@ This is a Media Information System designed to display marathon race results in 
 
 ## Usage
 
-1. Open `index.html` in your web browser.
+1. Open `index.html` in your web browser via the LiveServer in VSCode.
 2. View the marathon results displayed in the table.
 3. Click on the "Sort by Rank" or "Sort by Bib Number" buttons to sort the results accordingly.
 4. Click on the "Export to CSV" button to download the results in CSV format.
@@ -43,14 +45,18 @@ If you encounter CORS issues while running the application locally, you can use 
 
    This will start a server on port 8000 by default.
 
-4. Open your web browser and navigate to `http://localhost:8000` to access the application.
+4. Open your web browser and navigate to `http://localhost:8000/codebase` to access the application.
 
-## File Structure
+## File Structure (within the *codebase* folder)
 
+- `MarathonResults.json`: JSON file containing sample marathon race results.
 - `index.html`: Main HTML file for the application.
 - `styles.css`: CSS file for styling the interface.
-- `script.js`: JavaScript file containing the application logic.
-- `MarathonResults.json`: JSON file containing sample marathon race results.
+- `main.js`: JavaScript file containing the compilation of the application logic.
+- `js-modules/data.js`: Contains functions for fetching data from the JSON file.
+- `js-modules/ui.js`: Contains functions for populating the UI with data.
+- `js-modules/sorting.js`: Contains functions for sorting the data.
+- `js-modules/export.js`: Contains functions for exporting the data to a CSV file.
 
 ## Contributing
 
