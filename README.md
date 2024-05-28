@@ -58,10 +58,11 @@ If you encounter CORS issues while running the application locally, you can use 
 - `js-modules/sorting.js`: Contains functions for sorting the data.
 - `js-modules/export.js`: Contains functions for exporting the data to a CSV file.
 
-## Contributing
+## References
 
-Contributions are welcome! Please fork the repository and submit a pull request.
+- `girraphic-logo.jpg` - This image was sourced from [google images](https://images.app.goo.gl/ehoW7fGofd6kw3cn8).
+- [Bootstrap docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/) was referenced to style the webpage.
 
 ## Author
 
-Aswene Sivaraj (https://github.com/Ash-siv4/)
+[Aswene Sivaraj](https://github.com/Ash-siv4/)

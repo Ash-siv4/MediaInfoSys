@@ -11,7 +11,7 @@ export const exportToCSV = async (filePath) => {
         const url = window.URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = 'marathon_results.csv';
+        a.download = 'race_results.csv';
         a.click();
         window.URL.revokeObjectURL(url);
     } catch (error) {
